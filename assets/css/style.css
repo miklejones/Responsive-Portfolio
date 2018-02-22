@@ -172,3 +172,8 @@ hr {
 .teal {
   color: #4aaaa5;
 }
+ @media only screen and (max-width: 980px) {
+   body {
+     background-color: green;
+   }
+ }
