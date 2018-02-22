@@ -149,6 +149,7 @@ hr {
 
 .project-item {
   text-align: center;
+  height: 230px;
 }
 
 
@@ -164,8 +165,8 @@ hr {
    margin-left: 27.5px;
    background-color: #4aaaa5;
    color: #ffffff;
-   position: absolute;
-   top: 300px;
+   position: relative;
+   top: -110px;
    line-height: 70px;
  }
 
@@ -192,6 +193,10 @@ hr {
 
 .project-click:hover {
   opacity: 0.5;
+}
+
+a:hover {
+  opacity: 0.5 !important;
 }
 
 
@@ -236,6 +241,9 @@ hr {
     grid-template-columns: auto;
   }
 
+  .project-item {
+    height: 270px;
+  }
   .project-title {
     width: 300px;
     height: 50px;
@@ -298,6 +306,10 @@ hr {
   .project-grid {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .project-item {
+    height: 200px;
   }
 
   .project-title {
